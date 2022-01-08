@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  // https://docs.cypress.io/guides/tooling/typescript-support#Configure-tsconfig-json
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress"]
+  },
+  "include": ["**/*.ts"]
+}
