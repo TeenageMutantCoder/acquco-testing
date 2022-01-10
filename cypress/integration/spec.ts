@@ -292,7 +292,7 @@ describe("Sellerfusion dashboard", () => {
           })
           .then(($row) => {
             cy.wrap($row).trigger("mouseout"); // Used to close the Amazon Fulfilled Quantity summary
-            cy.wrap($row).should("not.be.visible"); // Ensures that the summary closes before trying to move to the next row
+            cy.wrap($row, { timeout: 10000 }).should("not.be.visible"); // Ensures that the summary closes before trying to move to the next row
           });
       })
       .then(() => {
