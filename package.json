@@ -2,10 +2,8 @@
   "name": "acquco-testing",
   "version": "1.0.0",
   "description": "This is my solution to the take-home project from Acquco for their Full Stack Engineer - QA Test Engineer role. The details of the project are in the \"QA Task.pdf\" file.",
-  "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "tsc && node dist/index.js",
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
