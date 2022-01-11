@@ -8,6 +8,8 @@ The document for step 2 is [automatable-tests.pdf](automatable-tests.pdf)
 
 The test script for step 3 is in [cypress/integration/spec.ts](cypress/integration/spec.ts), and there is a custom command in [cypress/support/commands.ts](cypress/support/commands.ts) (its Cypress type declarations are in [cypress/support/index.ts](cypress/support/index.ts)).
 
+The bug report for step 4 is in [bug-report.pdf](bug-report.pdf).
+
 ## How to Run
 
 1. Open a terminal or command prompt
